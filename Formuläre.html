@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Medlemskap</h1>
+    <div class="Formuläre">
+      <form action="https://httpbin.org/anything" method="post">
+        <div class="förnam">
+          <label for="förnam"> förnam </label>
+          <input id="förnam" name="förnam" type="text" required />
+        </div>
+
+        <div class="Efternam">
+          <label for="Efternam"> Efternam </label>
+          <input id="Efternam" name="Efternam" type="text" required />
+        </div>
+
+        <div class="Användarnamn">
+          <label for="Användarnamn"> Användarnamn </label>
+          <input id="Användarnamn"" name="Användarnamn" type="text" required />
+        </div>
+
+        <div class="Lösenord">
+          <label for="Lösenord"> Lösenord </label>
+          <input id="Lösenord" name="Lösenord" type="password" required />
+        </div>
+
+        <div class="E-post">
+          <label for="E-post"> E-post </label>
+          <input id="E-post" name="E-post" type="email" required />
+        </div>
+
+        <div class="Favorit-kattras">
+          <label for="Favorit-kattras "> Välja Favorit-kattras</label>
+          <select name="pet" id="Favorit-kattras " required>
+            <option value="">Please choose Favorit-kattras</option>
+            <option value="kattous">kattous</option>
+            <option value="catcat">Catcat</option>
+            <option value="shipi">shipi</option>
+            <option value="fafa">fafa</option>
+          </select>
+        </div>
+
+        <div class="Godkänna">
+          <button type="submit">Godkänna</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
